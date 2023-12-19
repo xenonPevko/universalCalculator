@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>страничка которая помогает считать 2+2 </title>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+    <script src='js/types/Member.js'></script>
+    <script src='js/types/Polynomial.js'></script>
+    <script src='js/types/Complex.js'></script>
+    <script src='js/types/Matrix.js'></script>
+    <script src='js/types/Vector.js'></script>
+    <script src='js/calculators/Calculator.js'></script>
+    <script src='js/calculators/RealCalculator.js'></script>
+    <script src='js/calculators/ComplexCalculator.js'></script>
+    <script src='js/calculators/VectorCalculator.js'></script>
+    <script src='js/calculators/MatrixCalculator.js'></script>
+    <script src='js/calculators/PolynomialCalculator.js'></script>
+    <script src='js/main.js'></script>
+</head>
+<body>
+    <div align="center" class="beautyDiv">
+        <p class="beautyP">калькулятор (универсальный!!!)</p>
+    </div>
+    <div align="center" class="beautyDiv">
+        <textarea id="a" placeholder="введите нечто первое"></textarea>
+        <div>
+        <button class="operand" data-operand="add"> + </button>
+        <button class="operand" data-operand="sub"> - </button>
+        <button class="operand" data-operand="mult"> * </button>
+        <button class="operand" data-operand="div"> / </button>
+        <button class="operand" data-operand="pow"> ^ </button>
+        <button class="operand" data-operand="prod"> prod </button>
+        <button class="operand" data-operand="one"> 1 </button>
+        <button class="operand" data-operand="zero"> 0 </button>
+        </div>
+        <textarea id="b" placeholder="введите нечто второе"></textarea>
+        <div>
+        <p> = </p>
+        <textarea id="c" placeholder="результат (дай бог правильный)"></textarea>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+body {
+    background-color:lightpink;
+}
+
+.beautyDiv {
+    border-radius: 20px;
+    padding: 10px; 
+    background: #f7edf1; 
+    border: 2px solid #b55a5d; 
+    margin: 10px;
+}
+
+.beautyP {
+    font-size: 35px;
+    font-family: "Courier", monospace;
+    font-weight: 600;
+    color: #b55a5d; 
+}
+
+p {
+    color:#b55a5d;
+}
+
+textarea {
+    width: 200px;
+    height: 70px;
+    resize: none;
+    border-radius: 20px;
+    padding: 10px; 
+    background: rgb(255, 227, 232); 
+    border: 2px solid #b55a5d; 
+    margin: 10px;
+}
+
+button {
+    border-radius: 20px;
+    padding: 10px; 
+    background: rgb(255, 227, 232); 
+    border: 2px solid #b55a5d; 
+    margin: 10px;
+}
